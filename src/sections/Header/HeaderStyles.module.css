@@ -1,0 +1,46 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Adjust back to the center */
+  width: 90%; /* Full width minus padding */
+  background-color: rgba(30, 30, 30, 0.5); /* Semi-transparent background */
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; /* Space between elements */
+  align-items: center;
+  z-index: 1000; /* Ensure it's above other content */
+  border-radius: 10px; /* Rounded corners */
+  margin-top: 20px;
+  padding-right: 60px;
+}
+
+.nav {
+  text-transform: uppercase;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 60px; /* Space between links */
+}
+
+.navList li {
+  text-align: center;
+}
+
+.navList li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.navList li a:hover {
+  color: grey; /* Hover color */
+}
