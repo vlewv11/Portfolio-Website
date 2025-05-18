@@ -41,12 +41,12 @@ function Hero() {
           </a>
         
         <a href={engCV} download>
-          <button className={styles.button}>
+          <button className={styles.button} style={{fontSize: "14px"}}>
             Download CV(eng)
           </button>
         </a>
         <a href={korCV} download>
-          <button className={styles.button}>
+          <button className={styles.button} style={{fontSize: "14px"}}>
             Download CV(kor)
           </button>
         </a>
